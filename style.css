@@ -1,5 +1,5 @@
 /* ==========================================================================
-   T'NOIR TAROT — stylesheet
+   Soulink — stylesheet
    Palette: near-black ground, warm-white ink, no colour accent (by design).
    Typeface: Cabin, used at varying weight and tracking for hierarchy.
    ========================================================================== */
@@ -687,6 +687,28 @@ input, select, textarea {
 
 .post-body p { margin: 0 0 22px; }
 .post-body strong { color: var(--fg-strong); font-weight: 700; }
+
+.post-body ul {
+    margin: 0 0 22px;
+    padding: 0;
+}
+
+.post-body li {
+    position: relative;
+    margin: 0 0 12px;
+    padding-left: 1.15em;
+}
+
+.post-body li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--fg-muted);
+}
 
 .post-cta { margin-top: 40px; }
 

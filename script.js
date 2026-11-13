@@ -1,4 +1,4 @@
-/* T'NOIR TAROT — behaviour
+/* Soulink — behaviour
    - Booking form opens a pre-filled email to tnoirtarot@gmail.com (mailto, no backend needed)
    - Each reading's "Request this reading" pre-selects that package in the form
    - Small mobile nav toggle
